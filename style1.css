@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+body{
+    width:80%;
+    padding:auto;
+    margin:auto;
+    background-image: url('background-image.jpeg');
+}
+
+.content{
+    width:40rem;
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    margin:auto;
+}
+.content a{
+    background-color:white;
+    border:3px solid black;
+    height:3rem;
+    align-content:center;
+    text-align:center;
+}
+.info{
+    text-align:center;
+    border:3px solid black;
+    
+    margin-bottom: 2rem;
+    padding:2rem;
+}
